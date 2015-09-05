@@ -1,5 +1,7 @@
 package me.xiezefan.leetcode.problem;
 
+import me.xiezefan.leetcode.entity.ListNode;
+
 /**
  * Add two number
  * Link:https://leetcode.com/problems/add-two-numbers/
@@ -45,11 +47,6 @@ public class Problem2 {
         return result;
     }
 
-    public static class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int x) { val = x; }
-    }
 
     public ListNode buildListNode(int num) {
         ListNode node = null;
